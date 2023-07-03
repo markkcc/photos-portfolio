@@ -1,6 +1,6 @@
-title: "Chronochrome"
+title: "Chronochrome - χρόνοχρώμα - ألوان الزمن"
 author: "Mark"
-description: "Chronochrome - χρόνοχρώμα - ألوان الزمن"
+description: "Beirut-raised, NYC-based cybersecurity engineer."
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -22,7 +22,6 @@ navigation: false                # accepts {file, title, url, icon, sidebaricon}
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:mark@worm.black"}
   - {title: Instagram, icon: instagram, url: "https://instagram.com/markkcc"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
