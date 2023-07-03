@@ -9,19 +9,19 @@ Where can we find the colors of time?
 
 I remember seeing them in the sky
 
-[sky](/assets/sky.jpg)
+![sky](/assets/sky.jpg)
 
 and sometimes in the sun
 
-[sun](/assets/sun.jpg)
+![sun](/assets/sun.jpg)
 
 perhaps they were also in the sea and the stars
 
-[sea and stars](/assets/seastar.jpg)
+![sea and stars](/assets/seastar.jpg)
 
 and forever in our memory
 
-[memory](/assets/memory.jpg)
+![memory](/assets/memory.jpg)
 
 [Euler's formula](https://en.wikipedia.org/wiki/Euler%27s_formula) relates the  complex exponential function to the trigonometric functions.
 
