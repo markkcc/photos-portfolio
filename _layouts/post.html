@@ -3,6 +3,7 @@ layout: default
 ---
 
 <article>
+  {% include meta.html post=page %}
   {{ content }}
   {% if page.comments != false and site.comments.isso or site.comments.disqus %}
     <hr>
@@ -10,5 +11,5 @@ layout: default
     {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
     <noscript>Please enable JavaScript to view comments.</noscript>
   {% endif %}
-  {% include meta.html post=page %}
+  {% include time.html post=page %}
 </article>
