@@ -52,7 +52,7 @@ var katexReplaceWithTex = function katexReplaceWithTex(fragment, copyDelimiters)
 
   for (var _i2 = 0; _i2 < displays.length; _i2++) {
     var _element2 = displays[_i2];
-    _element2.innerHTML = copyDelimiters.display[0] + _element2.innerHTML.substr(copyDelimiters.inline[0].length, _element2.innerHTML.length - copyDelimiters.inline[0].length - copyDelimiters.inline[1].length) + copyDelimiters.display[1];
+    _element2.textContent = copyDelimiters.display[0] + _element2.innerHTML.substr(copyDelimiters.inline[0].length, _element2.innerHTML.length - copyDelimiters.inline[0].length - copyDelimiters.inline[1].length) + copyDelimiters.display[1];
   }
 
   return fragment;
