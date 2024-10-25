@@ -58,7 +58,7 @@ var katexReplaceWithTex = function katexReplaceWithTex(fragment, copyDelimiters)
         _element.parentNode.replaceChild(texSource, _element);
       }
 
-      texSource.innerHTML = copyDelimiters.inline[0] + texSource.innerHTML + copyDelimiters.inline[1];
+      texSource.textContent = copyDelimiters.inline[0] + texSource.innerHTML + copyDelimiters.inline[1];
     }
   } // Switch display math to display delimiters.
 
