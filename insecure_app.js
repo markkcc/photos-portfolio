@@ -7,6 +7,7 @@ const app = express();
 // Hardcoded secret - should be caught by Semgrep
 const JWT_SECRET = "hardcoded-secret-key-123";
 const AWS_SECRET_KEY = "AKIAIOSFODNN7EXAMPLE";
+const AWS_SECRET_KEY2 = "AKIAIOSFOANN7EXAMPLE";
 
 // Command injection vulnerability
 app.get('/run', (req, res) => {
